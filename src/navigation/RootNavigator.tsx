@@ -25,7 +25,8 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      {isAuthenticated ? <AppNavigator /> : <AuthNavigator />}
+      {/* {isAuthenticated ? <AppNavigator /> : <AuthNavigator />} ===If Want Login ==== */}
+      <AppNavigator /> {/* Without Login */}
     </NavigationContainer>
   );
 }

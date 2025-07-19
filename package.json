@@ -27,6 +27,7 @@
     "@storybook/addon-ondevice-backgrounds": "^9.0.6",
     "axios": "^1.9.0",
     "dayjs": "^1.11.13",
+    "lucide-react-native": "^0.525.0",
     "nativewind": "^4.1.23",
     "react": "19.0.0",
     "react-native": "0.79.3",

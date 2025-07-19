@@ -16,9 +16,9 @@ export default function App() {
       <BottomSheetModalProvider>
         <Provider store={store}>
           <ThemeProvider>
-            <AppNavigator />
+            {/* <AppNavigator /> */}
             {/* //====== AppNavigator For Avoid Login Screen , DIRECT ACCESS TO HOME SCREEN// */}
-            {/* <RootNavigator /> //======For loign Screen/// */}
+            <RootNavigator />
           </ThemeProvider>
         </Provider>
       </BottomSheetModalProvider>
